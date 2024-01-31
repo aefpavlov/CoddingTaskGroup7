@@ -12,9 +12,8 @@ public class divisionWithoutOperator {
         System.out.println(division(4,4));//1
         System.out.println(division(2,4)); // invalid entry
 
-
-
     }
+
     public static String division(int num1 , int num2 ){
         int result=0;
         String message="";

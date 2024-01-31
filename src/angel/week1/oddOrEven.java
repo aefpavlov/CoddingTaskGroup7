@@ -8,13 +8,11 @@ public class oddOrEven {
     public static void main(String[] args)
     {
 
-
         idetify(0);
         idetify(1);
         idetify(2);
         idetify(-2);
         idetify(-1);
-
 
     }
     public static void idetify(int num){

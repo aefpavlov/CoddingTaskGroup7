@@ -9,6 +9,7 @@ public class finra {
     {
             finraPrint();
     }
+
     public static void finraPrint(){
         for (int i=1;i<=30;i++){
             if (i%3==0 && i%5==0){
