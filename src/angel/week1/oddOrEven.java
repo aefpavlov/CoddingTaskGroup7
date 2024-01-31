@@ -1,8 +1,5 @@
 package angel.week1;
 
-import java.sql.SQLOutput;
-import java.util.Scanner;
-
 public class oddOrEven {
     /*Write  a method which can identify given number is even or odd
     Output ex:
