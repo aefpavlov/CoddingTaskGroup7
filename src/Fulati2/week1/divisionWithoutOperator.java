@@ -3,7 +3,7 @@ package Fulati2.week1;
 public class divisionWithoutOperator {
     //Write a method that can divide two numbers without using division operator
     public static void main(String[] args) {
-        divide(0,5);
+        divide(2, 4);
     }
 
     public static void divide(int num1, int num2){
