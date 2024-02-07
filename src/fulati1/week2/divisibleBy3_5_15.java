@@ -2,7 +2,7 @@ package fulati1.week2;
 
 public class divisibleBy3_5_15 {
     public static void main(String[] args) {
-        dividable(8);
+        dividable(9);
     }
 
     public static void dividable(int a) {
