@@ -21,7 +21,6 @@ public class divisibleBy3_5_15 {
         }
 
 
-
     }
 
 
