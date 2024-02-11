@@ -17,13 +17,19 @@ public class primeNumber {
      }
 
      public static void isPrime(int num) {
-        if (num == 2 || num == 3){
-             System.out.println(num + " is PRIME");
-        } else if (num <= 1 || num % 2 == 0 || num % 3 == 0){
-             System.out.println(num + " is NOT PRIME");
-        } else {
-             System.out.println(num + " is PRIME");
-        }
+          if (num <= 1){
+               System.out.println(num + " is NOT PRIME");
+               return;
+          }
+
+          for (int i = 2; i <= Math.sqrt(num); i++) {
+               if(num % i == 0){
+                    System.out.println(num + " is NOT PRIME");
+                    return;
+               }
+          }
+          System.out.println(num + " is PRIME");
+          return;
      }
 }
 
