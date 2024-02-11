@@ -6,7 +6,7 @@ public class primeNumber {
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter whole  number");
+        System.out.println("Enter whole  number: ");
         int entry = input.nextInt();
 
         System.out.println("Number you have enter "+entry+" is "+(isPrime(entry)? " Prime":" Not Prime" + " number"));

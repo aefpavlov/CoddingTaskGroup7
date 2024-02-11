@@ -14,7 +14,7 @@ public class reverseNegativeNumber {
 
         if (! (entry<0)){ // sanity check forces to enter negative number
             while (entry>0) { // loop will end when number is negative
-                System.out.println("Invalid entry, please enter negative number ");
+                System.out.println("Invalid entry! Please enter negative number: ");
                 entry = input.nextInt();
             }
         }
