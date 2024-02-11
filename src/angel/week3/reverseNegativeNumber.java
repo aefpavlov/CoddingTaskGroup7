@@ -21,6 +21,9 @@ public class reverseNegativeNumber {
 
         System.out.println("You have entered : " + entry+" reversed number is "+reverseDigit(entry));
 
+        System.out.println( digitReversed(entry));// to test second method
+
+
         input.close();
     }
     public static String reverseDigit(int number){ // will return number as String - ready to print
@@ -37,6 +40,24 @@ public class reverseNegativeNumber {
         }
 
         return reversedString.toString() ;
+    }
+
+    public static int digitReversed(int number){ // same solution no loop
+        String num = ""+number; //  number to String
+
+        String numNoSign = num.substring(1);// number without negative sign
+
+        StringBuilder result = new StringBuilder();
+
+        result.append(numNoSign).reverse(); // first adds the number , them reverse it
+
+        result.insert(0,"-"); // inserts negative sign at beginning
+
+        return Integer.parseInt(result.toString()); // returns Int
+
+
+
+
     }
 
 }
