@@ -19,16 +19,45 @@ public class reverseNegativeNumber {
             }
         }
 
-        System.out.println("You have entered : " + entry+" reversed number is  -"+reverseDigit(entry));
+        System.out.println("You have entered : " + entry+" reversed number is "+reverseDigit(entry));
+
+        System.out.println( digitReversed(entry));// to test second method
+
+
         input.close();
     }
     public static String reverseDigit(int number){ // will return number as String - ready to print
-        String numToString = ""+number; // converts number into String
-        StringBuilder reversedString= new StringBuilder(); // use it to contain reversed number as String
-        for (int i=numToString.length()-1; i>0;i--){ // reversing number but not including - sign
+
+        String numToString = ""+number; //  number to String
+
+        StringBuilder reversedString= new StringBuilder(); // to contain reversed number as String
+
+        reversedString.append("-");// adding the negative sign
+
+        for (int i=numToString.length()-1; i>0;i--){ // reversing number , just the digits.
+
             reversedString.append(numToString.charAt(i))  ;
         }
-        return reversedString.toString() ; // result don't include original minus sign !
+
+        return reversedString.toString() ;
+    }
+
+    public static int digitReversed(int number){ // same solution no loop
+        String num = ""+number; //  number to String
+
+        String numNoSign = num.substring(1);// number without negative sign
+
+        StringBuilder result = new StringBuilder();
+
+        result.append(numNoSign).reverse(); // first adds the number , them reverse it
+
+        result.insert(0,"-"); // inserts negative sign at beginning
+
+        return Integer.parseInt(result.toString()); // returns Int
+
+
+
+
     }
 
 }
