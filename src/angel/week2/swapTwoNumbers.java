@@ -1,6 +1,7 @@
 package angel.week2;
 public class swapTwoNumbers {
     //Swap two variable' values without using a third variable
+    // just messing with it
     public static void main(String[] args)
     {
         int a = 10;
