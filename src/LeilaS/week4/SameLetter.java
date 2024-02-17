@@ -1,6 +1,6 @@
 package LeilaS.week4;
 
-public class SameLetterr {
+public class SameLetter {
     public static void main(String[] args) {
         System.out.println(sameLetter("abc", "abb"));
     }
@@ -13,4 +13,5 @@ public class SameLetterr {
         }
         return false;
     }
+
 }
