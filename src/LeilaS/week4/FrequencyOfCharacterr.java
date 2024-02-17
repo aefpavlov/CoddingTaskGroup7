@@ -1,6 +1,6 @@
 package LeilaS.week4;
 
-public class FrequencyOdCharacter {
+public class FrequencyOfCharacterr {
     public static void main(String[] args) {
         System.out.println(frequencyOfChar("aaabbbbccccc"));
     }
