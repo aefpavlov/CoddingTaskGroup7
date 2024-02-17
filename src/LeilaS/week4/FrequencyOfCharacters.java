@@ -1,12 +1,11 @@
 package LeilaS.week4;
 
-public class RemoveDuplicatee {
+public class FrequencyOfCharacters {
     public static void main(String[] args) {
-        System.out.println(removeDuplicate("AAABBBCCC"));
+        System.out.println(frequencyOfChar("aaabbbbccccc"));
     }
-    /*Write a return method that can remove the duplicated values from String
-       Ex:  removeDup("AAABBBCCC")  ==> ABC*/
-    public static String removeDuplicate(String str){
+
+    public static String frequencyOfChar(String str){
         String result="";
         for (int i = 0; i < str.length()-1; i++) {
             char ch = str.charAt(i);
@@ -19,9 +18,13 @@ public class RemoveDuplicatee {
             if(result.contains(""+ch)){
                 continue;
             }
-            result+=ch+"";
+            result+=ch+""+count;
         }
 
         return result;
     }
+
+        /*Write a return method that can find the frequency of characters
+        Ex:  FrequencyOfChars("AAABBCDD") ==> A3B2C1D2*/
+
 }
