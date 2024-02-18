@@ -14,6 +14,6 @@ public class PrimeNumber {
         return true;
     }
     public static void main(String[] args) {
-        System.out.println(isPrime(2));//is not prime because is devisible by 2 and 4
+        System.out.println(isPrime(8));//is not prime because is divisible by 2 and 4
     }
 }
