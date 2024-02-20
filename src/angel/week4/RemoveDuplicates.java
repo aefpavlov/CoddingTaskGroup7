@@ -4,7 +4,7 @@ import java.util.Set;
 
 public class RemoveDuplicates {
     /*Write a return method that can remove the duplicated values from String
-        Ex:  removeDup("AAABBBCCC")  ==> ABC*/
+        Ex:  removeDup("AAABBBCCC")  ==> ABC */
     public static void main(String[] args)
     {
         String s1 = "AAABBBCCC", s2= "ASAASBSNNS";
