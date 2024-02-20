@@ -22,6 +22,6 @@ public class RemoveDuplicates {
         return resutlt;
     }
 
-    //todo figure it out with Set - no duplicates
+    // todo figure it out with Set - no duplicates
 
 }
