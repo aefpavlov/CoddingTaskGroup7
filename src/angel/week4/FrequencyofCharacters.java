@@ -6,7 +6,7 @@ public class FrequencyofCharacters {
     public static void main(String[] args)
     {
         String  s1= "AAABBCDD",
-                s2 = "AABBABCDAD";
+                s2 = "AABBABCDAFAD";
         System.out.println(frequencyOfChars(s2));
         System.out.println(frequencyOfChars2(s2));
 
