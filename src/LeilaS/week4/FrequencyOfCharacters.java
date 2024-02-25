@@ -20,7 +20,6 @@ public class FrequencyOfCharacters {
             }
             result+=ch+""+count;
         }
-
         return result;
     }
 
