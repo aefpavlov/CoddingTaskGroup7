@@ -19,8 +19,8 @@ public class RemoveDuplicates {
                 result += "" + word.charAt(i);
         }
 
-
         return result;
     }
+
 
 }
