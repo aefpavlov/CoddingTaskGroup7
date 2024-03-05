@@ -16,7 +16,7 @@ public class findUnique {
         // I will get each of the characters of the string given and create conditions to check if the
         //characters are unique or not, by using for loop
         for (int i = 0; i < str.length(); i++) {//the initialization will start from zero, because index numbers start from zero
-            //for the condition I will give the last index of the string-1
+            //for the condition I will give the last index of the string
             //for the iterator I can give the increment of i
 
             //str.charAt(i);//passing "i" as argument to the chartAt method of the String
